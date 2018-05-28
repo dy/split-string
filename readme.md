@@ -1,14 +1,14 @@
-# split-string-by [![unstable](https://img.shields.io/badge/stability-unstable-orange.svg)](http://github.com/badges/stability-badges) [![Build Status](https://img.shields.io/travis/dy/split-string-by.svg)](https://travis-ci.org/dy/split-string-by)
+# string-split-by [![unstable](https://img.shields.io/badge/stability-unstable-orange.svg)](http://github.com/badges/stability-badges) [![Build Status](https://img.shields.io/travis/dy/string-split-by.svg)](https://travis-ci.org/dy/string-split-by)
 
 Split string by a separator with respect to brackets, quotes and escape markers. Optimized version of [string-split](https://github.com/jonschlinkert/split-string).
 
 ## Usage
 
-[![npm install split-string-by](https://nodei.co/npm/split-string-by.png?mini=true)](https://npmjs.org/package/split-string-by/)
+[![npm install string-split-by](https://nodei.co/npm/string-split-by.png?mini=true)](https://npmjs.org/package/string-split-by/)
 
 
 ```js
-var split = require('split-string-by')
+var split = require('string-split-by')
 
 split('a."b.c".d.{.e.f.g.}.h', '.')
 // ['a', '"b.c"', 'd', '{.e.f.g.}', 'h']
