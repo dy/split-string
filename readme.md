@@ -19,13 +19,13 @@ split('a."b.c".d.{.e.f.g.}.h', '.', {ignore: '""'})
 
 ## API
 
-### parts = splitBy(string, separator, opts?)
+### parts = splitBy(string, separator, options?)
 
-Return array with tokens.
+Return array with parts split from string by a separator, which can be whether _String_ or _RegExp_. Options can define:
 
 Option | Default | Meaning
 ---|---|---
-`ignore` | `['"', "'", '\`', '“”', '«»', '[]', '()', '{}']` | Avoid splitting content enclosed in the character pairs. Can be a string or a list of strings.
+`ignore` | `['"', "'", `` ` ``, '“”', '«»', '[]', '()', '{}']` | Avoid splitting content enclosed in the character pairs. Can be a string or a list of strings.
 `escape` | `true` | Avoid splitting at the escaped separator, eg. `\.` won't be separated by `'.'` separator.
 
 
